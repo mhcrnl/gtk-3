@@ -4,10 +4,7 @@ static void
 print_hello (GtkWidget *widget,
              gpointer   data)
 {
-  char str1[50];
-  sprintf(str1, "Hello!");
-  g_print (str1, "Hello World\n");
-  g_print (str1);
+  g_print ("Hello World\n");
 }
 
 static void
